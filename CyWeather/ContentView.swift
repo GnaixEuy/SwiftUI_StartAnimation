@@ -9,8 +9,39 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        SplashScreen (imageSize: CGSize(width: 128, height: 128)) {
+            
+            //            主体view
+            HomeView()
+            
+        } titleView: {
+            
+            Text("GnaixEuy")
+                .font(.system(size: 35).bold())
+                .foregroundColor(.white)
+            
+            
+        } logoView: {
+            Image("chengyilogo")
+                .resizable()
+                .scaledToFit()//可能出问题
+//                .aspectRatio( contentMode: .fit)
+        } navButtons: {
+
+
+            //我的头像框选项
+            Button {
+                
+            } label: {
+                Image("chengyilogo")
+                    .resizable()
+                    .scaledToFill()
+                    .frame(width: 35, height: 35)
+                    .clipShape(Circle())
+            }
+            
+        }
+        
     }
 }
 

@@ -7,18 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F4FA0E7271E7443004F2229 /* WebViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4FA0E6271E7443004F2229 /* WebViewDemo.swift */; };
+		1F4FA0E9271E745A004F2229 /* TryWebViewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4FA0E8271E745A004F2229 /* TryWebViewView.swift */; };
+		1F706FF0271D9AA90061F56E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F706FEF271D9AA90061F56E /* HomeView.swift */; };
+		1F87EC752745FEAB004872CC /* NFCDemoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F87EC742745FEAB004872CC /* NFCDemoView.swift */; };
 		1FAAEB292719ADBB005AEDF6 /* CyWeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAEB282719ADBB005AEDF6 /* CyWeatherApp.swift */; };
 		1FAAEB2B2719ADBB005AEDF6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAEB2A2719ADBB005AEDF6 /* ContentView.swift */; };
 		1FAAEB2D2719ADC9005AEDF6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FAAEB2C2719ADC9005AEDF6 /* Assets.xcassets */; };
 		1FAAEB302719ADC9005AEDF6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1FAAEB2F2719ADC9005AEDF6 /* Preview Assets.xcassets */; };
+		1FAAEB382719AE79005AEDF6 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FAAEB372719AE79005AEDF6 /* SplashScreenView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F4FA0E6271E7443004F2229 /* WebViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewDemo.swift; sourceTree = "<group>"; };
+		1F4FA0E8271E745A004F2229 /* TryWebViewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TryWebViewView.swift; sourceTree = "<group>"; };
+		1F706FEF271D9AA90061F56E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		1F706FF1271DA2EE0061F56E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		1F87EC742745FEAB004872CC /* NFCDemoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCDemoView.swift; sourceTree = "<group>"; };
 		1FAAEB252719ADBB005AEDF6 /* CyWeather.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CyWeather.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1FAAEB282719ADBB005AEDF6 /* CyWeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CyWeatherApp.swift; sourceTree = "<group>"; };
 		1FAAEB2A2719ADBB005AEDF6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1FAAEB2C2719ADC9005AEDF6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1FAAEB2F2719ADC9005AEDF6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1FAAEB372719AE79005AEDF6 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +43,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F87EC732745FE89004872CC /* NFC Demo */ = {
+			isa = PBXGroup;
+			children = (
+				1F87EC742745FEAB004872CC /* NFCDemoView.swift */,
+			);
+			path = "NFC Demo";
+			sourceTree = "<group>";
+		};
 		1FAAEB1C2719ADBA005AEDF6 = {
 			isa = PBXGroup;
 			children = (
@@ -51,6 +70,9 @@
 		1FAAEB272719ADBB005AEDF6 /* CyWeather */ = {
 			isa = PBXGroup;
 			children = (
+				1F87EC732745FE89004872CC /* NFC Demo */,
+				1F706FF1271DA2EE0061F56E /* Info.plist */,
+				1FAAEB362719AE60005AEDF6 /* View */,
 				1FAAEB282719ADBB005AEDF6 /* CyWeatherApp.swift */,
 				1FAAEB2A2719ADBB005AEDF6 /* ContentView.swift */,
 				1FAAEB2C2719ADC9005AEDF6 /* Assets.xcassets */,
@@ -65,6 +87,17 @@
 				1FAAEB2F2719ADC9005AEDF6 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		1FAAEB362719AE60005AEDF6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1FAAEB372719AE79005AEDF6 /* SplashScreenView.swift */,
+				1F706FEF271D9AA90061F56E /* HomeView.swift */,
+				1F4FA0E6271E7443004F2229 /* WebViewDemo.swift */,
+				1F4FA0E8271E745A004F2229 /* TryWebViewView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,7 +170,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F87EC752745FEAB004872CC /* NFCDemoView.swift in Sources */,
+				1FAAEB382719AE79005AEDF6 /* SplashScreenView.swift in Sources */,
+				1F4FA0E7271E7443004F2229 /* WebViewDemo.swift in Sources */,
+				1F706FF0271D9AA90061F56E /* HomeView.swift in Sources */,
 				1FAAEB2B2719ADBB005AEDF6 /* ContentView.swift in Sources */,
+				1F4FA0E9271E745A004F2229 /* TryWebViewView.swift in Sources */,
 				1FAAEB292719ADBB005AEDF6 /* CyWeatherApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -272,12 +310,13 @@
 				DEVELOPMENT_TEAM = Q57R8D23YS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CyWeather/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +341,13 @@
 				DEVELOPMENT_TEAM = Q57R8D23YS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CyWeather/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
